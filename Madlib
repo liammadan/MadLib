@@ -1,0 +1,44 @@
+
+/**
+ * LOL
+ *
+ * @Lmadan
+ * @2/14
+ */
+import java.util.Scanner;
+public class MadLib
+{
+    public static void main(String[] args)
+    {
+    Scanner in = new Scanner(System.in);
+    System.out.print("Please enter a proper noun: ");
+    String ProperNounOne= in.nextLine();
+    
+    System.out.print("Please enter another proper noun: ");
+    String ProperNounTwo= in.nextLine();
+    
+    System.out.print("Please enter a color: ");
+    String Color= in.nextLine();
+    
+    System.out.print("Please enter a verb: ");
+    String VerbOne= in.nextLine();
+    
+    System.out.print("Please enter another verb: ");
+    String VerbTwo= in.nextLine();
+    
+    System.out.print("Please enter an adverb: ");
+    String Adverb= in.nextLine();
+    
+    System.out.print("Please enter a number: ");
+    int Number= in.nextInt();
+    int NumberTwo= (Number * 5); 
+    
+    System.out.println(" One day "  +  ProperNounOne  +  " and "  +  ProperNounTwo +  " were playing Smash Bros ");
+    System.out.println(ProperNounOne  +  " was "  +  VerbOne  +  " as he was "  +  VerbTwo  +  " to "  +  ProperNounTwo);
+    System.out.println(ProperNounOne  +  " was using the "  +  Color  +  " kirby skin, but his chances of winning were "  +  Adverb  +  " getting worse "); 
+    System.out.println(" Finally "  +  ProperNounOne  +  " got hit for "  +  Number  + " damage, which brought his total to "  +  NumberTwo);
+    System.out.println(" Knowing that he was defeated, "  +  ProperNounOne  +  " gave up, and "  +  ProperNounTwo  +  " won "); 
+    
+    
+    }
+}
